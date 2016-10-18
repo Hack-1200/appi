@@ -1,5 +1,5 @@
 require 'sinatra'
-require 'server'
+require './server'
 get '/' do
   "Hello World!"
 end
