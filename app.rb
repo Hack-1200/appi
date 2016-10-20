@@ -3,7 +3,8 @@ require './post'
 require 'json'
 
 get '/' do
-	@pp=Post.all 
+	# @pp=Post.all 
+	"Hello world"
 end
 
 post '/' do
